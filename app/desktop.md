@@ -1,10 +1,20 @@
-# Apps
+# Aplications
 
 - nvim
 - steam
 - spotify
 - discord
-- brave
+- zen
+- Figma
+
+# 🌻Geral
+
+* Zen
+* Notion
+* Notion Calendar
+* Whatsapp
+
+# 💧Work
 
 # Pluglins and packages
 
