@@ -1,22 +1,29 @@
-# Aplications
-
-- nvim
-- steam
-- spotify
-- discord
-- zen
-- Figma
-
 # 🌻Geral
 
 * Zen
 * Notion
 * Notion Calendar
 * Whatsapp
+* Steam
+* Spotify
 
 # 💧Work
 
-# Pluglins and packages
+* NeoVim
+* Discord
+* BetterDiscord
+* Figma
+* Visual Studio Code
+* Zoom
 
-- node
-- codecs de video [open suse leap]
+# 🧬Bio Informatic
+
+* Mega11
+
+# 📦Pluglins and packages
+
+* node
+* codecs de video [open suse leap]
+* MalwareBytes [windows]
+* Java
+* Nvidia Drivers
