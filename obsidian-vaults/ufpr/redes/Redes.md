@@ -7,4 +7,6 @@
 6. [[6. Protocolo IP e roteamento]]
 7. [[7. Estratégias de IPv4]]
 8. [[8. Datagrama IP]]
-9. [[LISTA DE EXERCÍCIO 1]]
+9. [[9. Protocolo ICMP]]
+10. [[10. Portas e Protocolo UDP]]
+11. [[LISTA DE EXERCÍCIO 1]]
