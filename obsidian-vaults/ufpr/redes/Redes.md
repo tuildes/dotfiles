@@ -4,4 +4,7 @@
 3. [[3. Ethernet]]
 4. [[4. Endereços IP]]
 5. [[5. MultiCast e Protocolo ARP]]
-6. [[LISTA DE EXERCÍCIO 1]]
+6. [[6. Protocolo IP e roteamento]]
+7. [[7. Estratégias de IPv4]]
+8. [[8. Datagrama IP]]
+9. [[LISTA DE EXERCÍCIO 1]]

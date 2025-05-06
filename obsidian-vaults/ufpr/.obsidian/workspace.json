@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "18371f30c8fe7f89",
+        "id": "6b9aeb36cbe2d95a",
         "type": "tabs",
         "children": [
           {
-            "id": "3a4e065cbba6444d",
+            "id": "6bc1cff7bfb3a964",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "redes/Redes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Redes"
             }
           }
         ]
@@ -180,7 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 666.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,18 +197,23 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3a4e065cbba6444d",
+  "active": "6bc1cff7bfb3a964",
   "lastOpenFiles": [
-    "redes/6. T.B.A..md",
-    "diary-notes/2025-05-06.md",
-    "diary-notes",
     "redes/LISTA DE EXERCÍCIO 1.md",
+    "redes/8. Datagrama IP.md",
+    "redes/7. Estratégias de IPv4.md",
+    "images/cidr-continentes.png",
+    "images/subrede.png",
+    "redes/6. Protocolo IP e roteamento.md",
     "redes/5. MultiCast e Protocolo ARP.md",
     "redes/4. Endereços IP.md",
-    "redes/3. Ethernet.md",
+    "images/prox-passoNETID.png",
     "redes/2. Pilha de Protocolos - Camadas.md",
     "redes/1. Introdução a REDES.md",
     "redes/Redes.md",
+    "diary-notes/2025-05-06.md",
+    "diary-notes",
+    "redes/3. Ethernet.md",
     "images/ethernet.png",
     "images/quadro.png",
     "images/broadcast.png",
