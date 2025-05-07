@@ -86,7 +86,8 @@
 
 
 30. Considere que a sequência de palavras 0011, 0101 e 1010 acaba de chegar da Internet, junto com o checksum 1100. Algum bit veio errado? Mostre claramente como você chegou na resposta.
-31. Explique como o comando **traceroute** é implementado. Qual protocolo ele usa?
+
+31. Explique como o comando `traceroute` é implementado. Qual protocolo ele usa?
 
 
 32. Quais foram os tipos de mensagem ICMP vistas em sala de aula?
