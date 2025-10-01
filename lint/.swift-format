@@ -1,0 +1,12 @@
+{
+    "indentation" : {
+      "spaces" : 4
+    },
+    "insertSpaces" : true,
+    "spacesAroundRangeFormationOperators" : false,
+    "tabWidth" : 4,
+    "maximumLineLength": 120,
+    "noTrailingWhitespace": true,
+    "version" : 1
+}
+
