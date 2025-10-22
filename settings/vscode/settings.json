@@ -1,0 +1,165 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "git.autofetch": true,
+    "[dockercompose]": {
+        "editor.tabSize": 4
+    },
+    "git.suggestSmartCommit": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "c": false
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredExtensions": [
+        "esbenp.prettier-vscode"
+    ],
+    "terminal.integrated.tabStopWidth": 4,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.languageDetection": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.formatOnSave": true,
+    "files.simpleDialog.enable": true,
+    "git.openRepositoryInParentFolders": "always",
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.wordWrap": "on",
+    "workbench.activityBar.location": "bottom",
+    "editor.fontFamily": "Monocraft",
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "window.titleBarStyle": "native",
+    "custom-ui-style.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 20,
+            "y": 16
+        }
+    },
+    "custom-ui-style.stylesheet": {
+        ".notification-toast": "box-shadow: none !important",
+        ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+        ".quick-input-widget": "top: 25vh !important",
+        ".quick-input-list .scrollbar": "display: none",
+        ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+        ".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+        ".quick-input-titlebar": "background: #100B15 !important",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after": "display: none",
+        ".monaco-scrollable-element > .shadow.top": "display: none",
+        ".sidebar .title-label": "padding: 0 !important",
+        ".sidebar": "border: none !important",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+        ".monaco-list-row.focused": "outline: none !important",
+        ".monaco-editor .scroll-decoration": "display: none",
+        ".title-actions": "display: none !important",
+        ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
+        ".title .monaco-icon-label:after": "margin-right: 0",
+        ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
+        ".title .monaco-icon-label.file-icon": "margin: 0 60px",
+        ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+        "[Aura Dracula Spirit (Soft)]": {
+            "editorSuggestWidget.selectedBackground": "#3A334B",
+            "sideBar.background": "#191521"
+        },
+    },
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 2,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.codeLens": false,
+    "editor.links": false,
+    "editor.matchBrackets": "never",
+    "editor.parameterHints.enabled": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "scm.diffDecorations": "none",
+    "editor.lineNumbers": "relative",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.showFoldingControls": "never",
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "emmet.triggerExpansionOnTab": true,
+    "files.autoSave": "afterDelay",
+    "update.mode": "none",
+    "extensions.ignoreRecommendations": true,
+    "[swift]": {
+        "editor.defaultFormatter": "sweetpad.sweetpad",
+        "editor.formatOnSave": true
+    },
+    "sweetpad.format.args": [
+        "--quiet",
+        "${file}"
+    ],
+    "sweetpad.format.path": "/opt/homebrew/bin/swift-format",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "discord.detailsEditing": "Editing {workspace}",
+    "discord.largeImageIdling": "Idle (watching seishun buta yarou)",
+    "discord.detailsDebugging": "Debugging {workspace}",
+    "discord.lowerDetailsDebugging": "Workspace: {workspace}",
+    "discord.removeLowerDetails": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.iconTheme": "catppuccin-perfect-ayu",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+    ],
+    "workbench.colorTheme": "Ayu Dark",
+    "vscode_vibrancy.opacity": 0,
+}
