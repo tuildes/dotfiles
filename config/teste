@@ -1,0 +1,14 @@
+{
+  "indentSwitchCaseLabels" : true,
+  "lineBreakBetweenDeclarationAttributes" : true,
+  "maximumBlankLines" : 2,
+  "respectsExistingLineBreaks" : true,
+
+  "rules" : {
+    "DoNotUseSemicolons" : true,
+    "AlwaysUseLowerCamelCase" : true,
+    "NeverForceUnwrap" : true,
+    "NoEmptyLinesOpeningClosingBraces" : true,
+    "TypeNamesShouldBeCapitalized" : true,
+  },
+}
