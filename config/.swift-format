@@ -2,19 +2,21 @@
     "indentation" : {
       "spaces" : 4
     },
-    "insertSpaces" : true,
+    
+	"insertSpaces" : true,
     "spacesAroundRangeFormationOperators" : false,
     "indentSwitchCaseLabels" : true,
-    "lineBreakBetweenDeclarationAttributes" : true,
+   	
     "maximumBlankLines" : 2,
     "respectsExistingLineBreaks" : true,
     "tabWidth" : 4,
     "noTrailingWhitespace": true,
-    "rules" : {
+    
+	"rules" : {
         "DoNotUseSemicolons" : true,
         "AlwaysUseLowerCamelCase" : true,
         "NeverForceUnwrap" : true,
-        "NoEmptyLinesOpeningClosingBraces" : true,
+        "NoEmptyLinesOpeningClosingBraces" : false,
         "TypeNamesShouldBeCapitalized" : true,
     },
     "version" : 1
