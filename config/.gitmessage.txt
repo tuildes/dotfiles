@@ -11,3 +11,4 @@
 # perf:     A code change that improves performance.
 # test:     Adding missing tests or correcting existing tests.
 # chore:    Changes to the build process or auxiliary tools and libraries.
+# revert:   Revert a previous commit
