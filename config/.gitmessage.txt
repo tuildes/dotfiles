@@ -1,6 +1,5 @@
 <tag>(scope): <short description>
-
-<Long Description: Explain the "what" and "why" of the changes, not the "how".>
+# <Long Description: Explain the "what" and "why" of the changes, not the "how".>
 
 # Possible Tags:
 # feat:     A new feature for the user, not a new feature for builds.
