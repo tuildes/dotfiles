@@ -1,0 +1,3 @@
+alias exif="exiftool -a -g1"
+alias check-vpn='curl -s ipinfo.io/json | grep -E "ip|org|city|country"'
+alias ls="eza --icons"

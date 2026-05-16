@@ -1,2 +1,11 @@
+# macOS
 .DS_Store
-.*.swp
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+
+# Vim
+*.swp
+*.swo
+*~
