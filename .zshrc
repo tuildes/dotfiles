@@ -1,6 +1,6 @@
 # 1. ZSH & Plugins
 DISABLE_AUTO_UPDATE="true"
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(zsh-syntax-highlighting zsh-autosuggestions)
 
 export ZSH="$HOME/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
@@ -22,4 +22,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Interface
 eval "$(starship init zsh)"
-fastfetch --config os
+fastfetch --config ~/DotFiles/fastfetch/groups.jsonc

@@ -93,7 +93,7 @@
         "quickInput.background": "#0e1116e6"
     },
     "editor.fontSize": 12,
-    "editor.lineHeight": 2.5,
+    "editor.lineHeight": 2.0,
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -133,12 +133,6 @@
     },
     "git.autofetch": true,
     "git.suggestSmartCommit": false,
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.tabStopWidth": 4,
     "diffEditor.ignoreTrimWhitespace": false,

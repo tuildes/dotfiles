@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# tuildes - setup script
+# description: setup all alias -- unix
+
 DOTFILES="$HOME/DotFiles"
 
 mkdir -p "$HOME/Library/Application Support/Code/User"
