@@ -15,6 +15,7 @@ ln -sf "$DOTFILES/vscode/settings.json" "$HOME/Library/Application Support/Code/
 ln -sf "$DOTFILES/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 ln -sf "$DOTFILES/.aliases" "$HOME/.aliases"
 ln -sf "$DOTFILES/.aliases.secret" "$HOME/.aliases.secret"
-ln -sf "$DOTFILES/starship.toml" "$HOME/.config/starship.toml
+ln -sf "$DOTFILES/starship.toml" "$HOME/.config/starship.toml"
+ln -sf "$DOTFILES/nvim" "$HOME/.config/nvim"
 
 echo "Finished setup"
