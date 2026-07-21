@@ -1,3 +1,4 @@
 alias exif="exiftool -a -g1"
 alias check-vpn='curl -s ipinfo.io/json | grep -E "ip|org|city|country"'
 alias ls="eza --icons=always"
+alias new-mail="osascript -e 'tell application \"Mail\"' -e 'check for new mail' -e 'delay 5' -e 'return subject of (every message of inbox whose read status is false)' -e 'end tell'"
