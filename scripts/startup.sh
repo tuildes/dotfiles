@@ -5,11 +5,8 @@
 
 # Open /Applications default apps
 APP_DIR="/Applications";
-APPS_ARR=( 'Linear' 'Raycast' 'Stats' 'Rectangle' 'Mullvad VPN' 'Bitwarden' 'Mos' 'Freedom' )
+APPS_ARR=( 'Helium' 'Spotify' 'Raycast' 'Stats' 'Rectangle' 'NordVPN' 'Bitwarden' 'Mos' )
 
 for app in "${APPS_ARR[@]}"; do
     open -g "$APP_DIR/$app.app"
 done
-
-# VPN
-mullvad connect

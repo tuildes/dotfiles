@@ -12,7 +12,7 @@ local function open_nvim_tree()
     vim.cmd("wincmd p")
 end
 
--- vim.api.nvim_create_autocmd({ "vimEnter" }, { callback = open_nvim_tree })
+vim.api.nvim_create_autocmd({ "vimEnter" }, { callback = open_nvim_tree })
 vim.api.nvim_create_autocmd("BufEnter", {
     nested = true,
     callback = function()
@@ -25,16 +25,18 @@ vim.api.nvim_create_autocmd("BufEnter", {
 -- Discord presence
 require("presence").setup({
     -- General options
-    auto_update         = true,
-    neovim_image_text   = "neovim - the new vim (new vi)",
+    neovim_image_text   = "neovim",
     main_image          = "neovim",
-    log_level           = nil,
+    log_level           = "debug",
     debounce_timeout    = 10,
     enable_line_number  = false,
-    blacklist           = {},
     buttons             = true,
-    file_assets         = {},
     show_time           = true,
+
+    -- Language specify
+    file_assets = {
+        r = { text="R Language", image="r" }
+    },
 
     -- Rich Presence text options
     editing_text        = "editing %s",

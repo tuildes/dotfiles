@@ -30,3 +30,5 @@
 	format = ssh
 [gpg "ssh"]
 	allowedSignersFile = /Users/tuildes/.ssh/allowed_signers
+[push]
+	autoSetupRemote = true
