@@ -15,14 +15,13 @@ local lazy_config = require "configs.lazy"
 
 -- load plugins
 require("lazy").setup({
-  {
-    "NvChad/NvChad",
-    lazy = false,
-    branch = "v2.5",
-    import = "nvchad.plugins",
-  },
-
-  { import = "plugins" },
+    {
+        "NvChad/NvChad",
+        lazy = false,
+        branch = "v2.5",
+        import = "nvchad.plugins",
+    },
+    { import = "plugins" },
 }, lazy_config)
 
 -- load theme
@@ -34,5 +33,5 @@ require "autocmds"
 require "snippets"
 
 vim.schedule(function()
-  require "mappings"
+    require "mappings"
 end)
