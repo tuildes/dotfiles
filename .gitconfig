@@ -1,7 +1,7 @@
 [user]
-	email = frehsegustavo@gmail.com
+	email = frehse@tuildes.dev
 	name = tuildes
-	signingKey = /Users/tuildes/.ssh/id_ed25519.pub
+	signingKey = ~/.ssh/id_ed25519.pub
 [fetch]
 	prune = true
 [merge]
@@ -13,7 +13,9 @@
 	rebase = true
 [core]
 	editor = nvim
-	excludesfile = /Users/tuildes/DotFiles/config/.gitignore_global
+	excludesfile = ~/DotFiles/config/.gitignore_global
+	autocrlf = input
+	pager = delta
 [column]
 	ui = auto
 [branch]
@@ -24,11 +26,15 @@
 	renames = true
 	algorithm = histogram
 [commit]
-	template = /Users/tuildes/DotFiles/config/.gitmessage.txt
+	template = ~/DotFiles/config/.gitmessage.txt
 	gpgSign = true
 [gpg]
 	format = ssh
 [gpg "ssh"]
-	allowedSignersFile = /Users/tuildes/.ssh/allowed_signers
+	allowedSignersFile = ~/.ssh/allowed_signers
 [push]
 	autoSetupRemote = true
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	side-by-side = true

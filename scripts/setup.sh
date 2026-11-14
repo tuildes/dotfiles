@@ -1,21 +1,47 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# tuildes - setup script
-# description: setup all alias -- unix
+set -euo pipefail
 
-DOTFILES="$HOME/DotFiles"
+DOTFILES="${DOTFILES:-$HOME/DotFiles}"
+OS="$(uname -s)"
 
-mkdir -p "$HOME/Library/Application Support/Code/User"
-mkdir -p "$HOME/.config"
+if [[ ! -d "$DOTFILES" ]]; then
+  echo "error: DotFiles not found at $DOTFILES" >&2
+  exit 1
+fi
 
-ln -sf "$DOTFILES/.vimrc" "$HOME/.vimrc"
-ln -sf "$DOTFILES/.gitconfig" "$HOME/.gitconfig"
-ln -sf "$DOTFILES/.zshrc" "$HOME/.zshrc"
-ln -sf "$DOTFILES/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
-ln -sf "$DOTFILES/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
-ln -sf "$DOTFILES/.aliases" "$HOME/.aliases"
-ln -sf "$DOTFILES/.aliases.secret" "$HOME/.aliases.secret"
-ln -sf "$DOTFILES/starship.toml" "$HOME/.config/starship.toml"
-ln -sf "$DOTFILES/nvim" "$HOME/.config/nvim"
+link() {
+  local src="$1" dest="$2"
+  mkdir -p "$(dirname "$dest")"
+  ln -sfn "$src" "$dest"
+  echo "linked $dest -> $src"
+}
+
+echo "common links ($OS)"
+link "$DOTFILES/.vimrc" "$HOME/.vimrc"
+link "$DOTFILES/.gitconfig" "$HOME/.gitconfig"
+link "$DOTFILES/.zshrc" "$HOME/.zshrc"
+link "$DOTFILES/.aliases" "$HOME/.aliases"
+link "$DOTFILES/starship.toml" "$HOME/.config/starship.toml"
+link "$DOTFILES/nvim" "$HOME/.config/nvim"
+
+if [[ -f "$DOTFILES/.aliases.secret" ]]; then
+  link "$DOTFILES/.aliases.secret" "$HOME/.aliases.secret"
+fi
+
+case "$OS" in
+  Darwin)
+    echo "macOS extras"
+    ;;
+  Linux)
+    echo "Linux / home-server"
+    if ! command -v docker >/dev/null 2>&1; then
+      echo "note: install Docker to run stacks under $DOTFILES/docker"
+    fi
+    ;;
+  *)
+    echo "warning: untested OS: $OS" >&2
+    ;;
+esac
 
 echo "Finished setup"

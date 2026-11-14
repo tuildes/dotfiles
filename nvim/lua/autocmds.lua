@@ -17,16 +17,39 @@ autocmd( "BufEnter", {
     end,
 })
 
--- Swift rules
-vim.api.nvim_create_autocmd("FileType", {
+-- Languages rules 
+vim.filetype.add({
+    extension = {
+        mdc = "markdown",
+    },
+})
+
+autocmd("FileType", {
     pattern = "c",
     callback = function()
         vim.opt_local.colorcolumn = "80"
         vim.opt_local.textwidth = 80
     end,
 })
-vim.api.nvim_create_autocmd("FileType", {
+
+autocmd("FileType", {
     pattern = "swift",
+    callback = function()
+        vim.opt_local.colorcolumn = "128"
+        vim.opt_local.textwidth = 128
+    end,
+})
+
+autocmd("FileType", {
+    pattern = "markdown",
+    callback = function()
+        vim.opt_local.colorcolumn = "100"
+        vim.opt_local.textwidth = 100
+    end,
+})
+
+autocmd("FileType", {
+    pattern = "tex",
     callback = function()
         vim.opt_local.colorcolumn = "128"
         vim.opt_local.textwidth = 128
