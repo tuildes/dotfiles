@@ -15,7 +15,17 @@ docker compose up -d
 - Backups: always on → `~/backups/<version>/<timestamp>-{manual|scheduled}/`  
 - Manual: `sure-backup` or `docker compose run --rm backup create`
 
-Aliases: `sure-up`, `sure-down`, `sure-logs`, `sure-backup`, `stacks-up`.
+Aliases: `sure-up`, `sure-down`, `sure-logs`, `sure-backup`.
+
+## Uptime Kuma (status)
+
+```bash
+cd ~/DotFiles/docker/uptime-kuma
+cp .env.example .env
+docker compose up -d
+```
+
+- UI: http://localhost:3001 (or `http://SERVER-IP:3001` from the Mac)
 
 ## Adding another service
 

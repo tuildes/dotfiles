@@ -3,4 +3,5 @@ alias check-vpn='curl -s ipinfo.io/json | grep -E "ip|org|city|country"'
 alias ls="eza --icons=always"
 alias tldr="tldr -L en"
 alias xxx="killall Xcode || true && xcodegen && xed ."
+
 alias dps="docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'"
