@@ -11,10 +11,10 @@ if [[ ! -d "$DOTFILES" ]]; then
 fi
 
 link() {
-  local src="$1" dest="$2"
-  mkdir -p "$(dirname "$dest")"
-  ln -sfn "$src" "$dest"
-  echo "linked $dest -> $src"
+    local src="$1" dest="$2"
+    mkdir -p "$(dirname "$dest")"
+    ln -sfn "$src" "$dest"
+    echo "linked $dest -> $src"
 }
 
 echo "common links ($OS)"
@@ -26,22 +26,22 @@ link "$DOTFILES/starship.toml" "$HOME/.config/starship.toml"
 link "$DOTFILES/nvim" "$HOME/.config/nvim"
 
 if [[ -f "$DOTFILES/.aliases.secret" ]]; then
-  link "$DOTFILES/.aliases.secret" "$HOME/.aliases.secret"
+    link "$DOTFILES/.aliases.secret" "$HOME/.aliases.secret"
 fi
 
 case "$OS" in
-  Darwin)
-    echo "macOS extras"
-    ;;
-  Linux)
-    echo "Linux / home-server"
-    if ! command -v docker >/dev/null 2>&1; then
-      echo "note: install Docker to run stacks under $DOTFILES/docker"
-    fi
-    ;;
-  *)
-    echo "warning: untested OS: $OS" >&2
-    ;;
+    Darwin)
+        echo "macOS extras"
+        ;;
+    Linux)
+        echo "Linux / home-server"
+        if ! command -v docker >/dev/null 2>&1; then
+            echo "note: install Docker to run stacks under $DOTFILES/docker"
+        fi
+        ;;
+    *)
+        echo "warning: untested OS: $OS" >&2
+        ;;
 esac
 
 echo "Finished setup"
